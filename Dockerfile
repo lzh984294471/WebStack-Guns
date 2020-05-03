@@ -18,5 +18,5 @@ COPY --from=MVN_BUILD /opt/webStack/ /opt/webStack/
 ENV TZ=Asia/Shanghai
 EXPOSE 8000
 
-ENTRYPOINT [ "java", "-cp", "WEB-INF/lib/*:WEB-INF/classes", "com.jsnjfz.manage.WebstackGunsApplication" ]
+ENTRYPOINT [ "java", "-cp", "WEB-INF/lib/*:WEB-INF/classes", "com.jsnjfz.manage.WebstackGunsApplication", "--server.port=8000" ]
 

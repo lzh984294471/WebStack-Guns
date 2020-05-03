@@ -16,7 +16,7 @@
     <name>Webstack-Guns</name>
     <description>Webstack-Guns 的spring boot版本</description>
 
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

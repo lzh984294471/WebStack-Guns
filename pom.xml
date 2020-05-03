@@ -238,6 +238,7 @@
                 </includes>
             </resource>
         </resources>
+        <finalName>webStack</finalName>
     </build>
 
     <profiles>
